@@ -91,7 +91,7 @@ The video loop in `vidDisplay.cpp` is a single-threaded state machine. Each fram
 - **Language:** C++ (C++14)
 - **Library:** OpenCV 4 (`opencv4` pkg-config)
 - **Build:** GNU make + `g++`
-- **Capture:** `cv::VideoCapture(0)` — any V4L2 / AVFoundation / DirectShow camera
+- **Capture:** `cv::VideoCapture(0)`, any V4L2 / AVFoundation / DirectShow camera
 
 ## Results
 
